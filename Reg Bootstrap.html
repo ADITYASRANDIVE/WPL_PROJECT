@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="header">
+  	<h2>Register</h2>
+  </div>
+<form>
+  	
+  	<div class="input-group">
+  	  <label>Username</label>
+  	  <input type="text" name="username" value="Enter Name">
+  	</div>
+<br>
+	<p>Date of Birth</p>
+ 	<input type="date" name="date" placeholder="dd-mm-yyyy" value="dd-mm-yyyy">
+  	</div>
+<br>
+<br>
+	<p> Gender</p>
+  <input type="radio" id="male" name="gender" value="Male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="Female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="others" name="gender" value="Others">
+  <label for="others">Others</label>
+<br>
+<br>
+  	<div class="input-group">
+  	  <label>Email</label>
+  	  <input type="email" name="email" value="Enter Email">
+  	</div>
+<br>
+<label for="phone">Phone Number:</label><br><br>
+
+  <input type="tel" id="phone" name="phone" placeholder="1234567890" pattern="[0-9]{10}" required><br><br>
+
+  	<div class="input-group">
+  	  <label>Password</label>
+  	  <input type="password" name="password_1">
+  	</div>
+<br>
+  	<div class="input-group">
+  	  <label>Confirm password</label>
+  	  <input type="password" name="password_2">
+  	</div>
+<br>
+<center>
+  	<div class="input-group">
+  	  <button type="submit" class="btn" name="reg_user">Register</button>
+	<button type="reset" class="btn" name="reset">Reset</button>
+  	</div>
+</center>  	
+  </form>

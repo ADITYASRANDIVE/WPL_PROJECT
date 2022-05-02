@@ -1,0 +1,55 @@
+<?php
+echo "<script>
+$user=$_POST["username"];
+$pass=$_POST["password"];
+
+if($_POST["username"]!="admin" && $_POST["password"]!="root123"
+{
+alert("Username or Password Incorrect");
+window.location.href='Admin login.html';
+}
+</script>";
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+    background-image: url(adm.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  font-family: Verdana, sans-serif;
+}
+h2
+{
+   color:#E0FFFF;
+   display:inline-block;
+   Padding:15px;
+   background-color:#1E90FF;
+   border:1px;
+}
+
+.Anchor{background-color:#E0FFFF;
+border: 5px;
+}
+</style>
+</head>
+<body>
+<br>
+<br>
+<center>
+<h1 style="margin-center: 950px;
+    font-family: 'Fjalla One', sans-serif;
+    color:blue;">Admin Home</h1> </center>
+</div>
+</center>
+<br>
+<div class="Anchor">
+<div align="center">
+  <pre>  <a href="vaccine access.php"><h2>VACCINATION DETAILS </h2></a>     <a href="Booking Access.php"><h2>BOOKING DETAILS</h2></a>      <a href="Admin Login.html"><h2>LOGOUT</h2></a>  </pre>
+</div>
+</div>
+
+</body>

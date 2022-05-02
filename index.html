@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Hospital </title>
+        <link rel="stylesheet" href="Interface.css">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h2
+{
+   color:#E0FFFF;
+   display:inline-block;
+   Padding:15px;
+   background-color:#1E90FF;
+   border:1px;
+}
+
+
+.icon-bar {
+  position: fixed;
+  top: 40%;
+  -webkit-transform: translateX(2700%);
+  -ms-transform: translateX(2700%);
+  transform: translateX(2700%);
+}
+.icon-bar a {
+  display: block;
+  text-align:center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.instagram {
+  background: #125688;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+</style>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "300px";
+  document.getElementById("main").style.marginLeft = "300px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>         
+</head>
+<body onunload="close()">
+
+    
+<div class="Anchor">
+<pre> <div style="font-size:30px; cursor:pointer" onclick="openNav()"> <img src="menu.jpg" width="55 px" height="55 px"> </div> 
+<div align="center">
+   <img src="Logo.png" width="75 px" height="75 px"> <a href="vaccine.php"><h2>VACCINATION</h2></a>     <a href="Booking.php"><h2>BOOKING</h2></a>      <a href="login.php"><h2>LOGIN</h2></a>     <a href="register.php"><h2>REGISTER</h2></a></pre>
+</div>
+</div>
+
+<header>
+<hr>
+
+<div class="header"> 
+<center><a href="index.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="Logo.png" width="250px" height="250 px"></a><h1 style="margin-center: 950px;
+    font-family: 'Fjalla One', sans-serif;
+    color:blue;">A Leading Light in Healthcare</h1> </center>
+</div>
+<br>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="DOC TT.html"> Hospital Time Table</a>
+  <a href="Admin Login.html"> Admin </a>
+  <a href="#"></a>
+  
+</div>
+<Center>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 8</div>
+  <img src="p1.jpg" style="width:700px; height:500px;">
+  <div class="text"><h3>Hospital</h3></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 8</div>
+  <img src="p2.jpg" style="width:700px; height:500px;">
+  <div class="text"><h3>Pharmacy</h3></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 8</div>
+  <img src="p6.jpg" style="width:700px; height:500px;">
+  <div class="text"><h3>Beds</h3></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 8</div>
+  <img src="p4.jpg" style="width:700px; height:500px;">
+  <div class="text"><h3>Blood Tests</h3></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 8</div>
+  <img src="p5.jpg" style="width:700px; height:500px;">
+  <div class="text"><h3>Covid Test / Antigen</h3></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 8</div>
+  <img src="p7.jpg" style="width:700px; height:500px;">
+  <div class="text"><h3> Consultation </h3></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 8</div>
+  <img src="p9.jpg" style="width:700px; height:500px;">
+  <div class="text"><h3> Doctors </h3> </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 8</div>
+  <img src="p8.jpg" style="width:700px; height:500px;">
+  <div class="text"><h3>Cafeteria </h3></div>
+</div>
+
+</div>
+<br>
+</Center>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+&nbsp;<h2 id="myP" onmousedown="mouseDown()" onmouseup="mouseUp()">Know about Us</h2>
+<p><h3 >&nbsp; KJ Hostpital is one of the Best Hospitals in India right now as we have delivered wonderful services throught the last 15 years &nbsp;and counting. 
+<br>&nbsp;Our hospital has most of the top class facilites like proper bedding, ambient consulting rooms, patient sitting area, Hygenic &nbsp;cafeteria, clean &nbsp;vaccination centre and our maintainance is quite good thats why we are in the top 10 Hostpitals in india.
+<br>&nbsp;We have appointment booking in online and offline mode throught proper process in which you have to choose a mode and we &nbsp;will reach you &nbsp;according to your selection.
+<br>&nbsp;We provide home visit for all the blood tests required in daily life without any hassle and we provide quick results.We have &nbsp;Started Covid 19 &nbsp;RT-PCR tests, Antigen Tests where you just have to book appointment your test will be done.
+<br>&nbsp;We have a Pharmacy section also where you can buy all the medicines using doctor's prescription and other medical equipment and stuff with &nbsp;patient discounts.  
+<br>&nbsp;Enjoy your time at out website and we hope you have a Healthy life !!!</h3></p>
+<br>
+
+&nbsp;<h2>Contact Us</h2>
+<center>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.3773646767618!2d72.87267221421229!3d19.047139057830293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8c9d2e41871%3A0x18b2a8b2435df969!2sK.J.%20Somaiya%20Hospital%20%26%20Research%20Center!5e0!3m2!1sen!2sin!4v1645420355910!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</center>
+<br>
+<p><h3>&nbspKJ Hospital,
+<br>
+&nbspSomaiya Ayurvihar, Eastern Express Hwy, Sion East, Sion, Mumbai, Maharashtra 400022
+<br>
+&nbspContact Number: +022 2525&nbsp;5588, +022 2525&nbsp;5589
+</p>
+
+<h2>&nbsp;Emergency Contacts</h2>
+<br>
+<p><h3>&nbsp; 365 * 24 * 7 Active Numbers 
+<br>
+&nbsp;Ambulance: 102
+<br>
+&nbsp;+91 9628553421
+&nbsp;+91 9789567812
+&nbsp;+91 9828650973
+<br>
+<br>
+&nbsp; Oxygen Cylinders:
+<br>
+&nbsp; +91 5354643564
+&nbsp; +91 4567535753
+&nbsp; +91 8567442320
+
+</h3>
+</p> 
+
+<a href="index.html"><img src="stt.png" width="100px" height="100 px" align= right></a>
+
+
+<div class="icon-bar">
+  <a href="https://www.facebook.com/SomaiyaAyurvihar/" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/sayurvihar?lang=en" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.instagram.com/somaiyatrust/?hl=en" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="https://www.youtube.com/channel/UCodZ1Cpl6GHrbAqtUalNdWA" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+
+<script>
+  
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2500);
+}
+function close() {
+alert("Thank you for visiting KJ HOSPITAL");
+}
+function bigImg(x) {
+  x.style.height = "270px";
+  x.style.width = "270px";
+}
+
+function normalImg(x) {
+  x.style.height = "250px";
+  x.style.width = "250px";
+}
+
+function mouseDown() {
+  document.getElementById("myP").style.color = "pink";
+}
+
+function mouseUp() {
+  document.getElementById("myP").style.color = "white";
+}
+</script>
+
+<?php
+$_SESSION['username']=$_POST["username"];
+echo "Session variables are set";
+echo "Session variable : ".$_SESSION[$_POST["username"]];
+?>
+</body>
+<footer><center>&nbsp;<h3>&reg; KJ HOSPITAL</h3></center>
+
+</footer>
+</html>
